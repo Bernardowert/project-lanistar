@@ -24,8 +24,16 @@
     --color-neutral-color-300:#475567;
     --color-neutral-color-200:#29394A;
     --color-neutral-color-100:#0A1D2E;
+    --color-pinkDark-900: #FFA6E3;
+    --color-greenDark-900: #41DD831F;
 
     --max-width-containerGRID: 78rem;
+    --max-width-modal:62.5rem;
+    --max-width-card-ImageModal:23.125rem;
+    --max-width-paragraph:25.625rem;
+    --max-width-cardModalForm:18.625rem;
+   
+    --height-modal:31.25rem;
 }
 
 
