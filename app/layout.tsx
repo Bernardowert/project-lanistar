@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Barlow } from "next/font/google";
 import "./globals.css";
+import { Header } from "@/components/header";
+
 
 
 
@@ -26,6 +28,7 @@ export default function RootLayout({
       <body
         className={`${barlow.variable} antialiased`}
       >
+        <Header/>
         {children}
       </body>
     </html>
