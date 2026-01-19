@@ -1,3 +1,5 @@
+'use client'
+
 import Image from "next/image";
 
 
@@ -11,6 +13,7 @@ import image03 from "@/assets/pinkCard-icon.png";
 import iconGlobal from "@/assets/icons/icon-global.png";
 import iconGreen from "@/assets/icons/icon-green-okay.svg";
 import { X } from "lucide-react";
+import { useState } from "react";
 
 const imagesModal = [
     {
@@ -41,9 +44,24 @@ const selectCountry = [
 
 
 export function RegisterModal(){
+    const [openModal, setOpenModal] = useState(false);
+    const [isMounted, setIsMounted] = useState(false);
+    function handleModal(){
+         if(openModal){
+            setOpenModal(false);
+         }
+         else {
+             setIsMounted(true);
+             requestAnimationFrame(() => {
+                 setOpenModal(true);
+             })
+         }
+    }
+   
+
     return(
        <>
-            <button className="flex items-center gap-4">
+            <button onClick={handleModal} className="flex items-center gap-4">
             <Image
              src={logoRegister}
              alt="Logo Register"
@@ -53,12 +71,14 @@ export function RegisterModal(){
             <span className="font-medium text-blue-light-900">PRE-REGISTER NOW</span>
              </button>
 
-             <div className="w-full h-full fixed top-0 left-0 flex items-center justify-center">
+             {
+                isMounted && (
+                <div className={`w-full h-full fixed top-0 left-0 flex items-center justify-center transition ease-linear ${openModal ? "opacity-100" : "opacity-0"}`} onTransitionEnd={() => { if(!openModal) setIsMounted(false) }}>
                  <div className="w-full h-full fixed top-0 left-0 bg-black/50 -z-10">
                       
                  </div>
 
-                <div className="w-full max-w-modal h-modal bg-white flex items-start">
+                <div className={`w-full max-w-modal h-modal bg-white flex items-start rounded-lg overflow-hidden transition ease-linear ${openModal ? "translate-y-0" : "translate-y-full"}`}>
                  <div className="w-full max-w-card-ImageModal h-full relative flex items-center justify-center bg-pinkDark-900">
                         {
                                 imagesModal.map(({src,alt,style}, index) => (
@@ -80,7 +100,7 @@ export function RegisterModal(){
                               alt="Icon global"
                               title="Icon Global"
                             />
-                            <button className="w-9 h-9 flex items-center justify-center" aria-label="Botão para fechar modal">
+                            <button className="w-9 h-9 flex items-center justify-center" onClick={handleModal} aria-label="Botão para fechar modal">
                                 <X size={24} color="#A6AEB8" />
                             </button>
                        </div>
@@ -113,7 +133,9 @@ export function RegisterModal(){
                        </div>
                  </div>
                 </div>
-             </div>
+                  </div>
+                )
+             }
        </>
     )
 }
