@@ -16,8 +16,8 @@ const listing = [
 export function SectionCredit(){
     return(
         <section className="py-28">
-              <ContainerGRID className="flex items-start">
-                   <h2 className="text-5xl font-light text-neutral-color-300"><span className="text-neutral-color-400">LANISTAR</span> PAYMENT CARD</h2>
+              <ContainerGRID className="flex items-start gap-48">
+                   <h2 className="text-6xl font-light text-neutral-color-300 max-w-lg"><span className="text-neutral-color-400">LANISTAR</span> PAYMENT CARD</h2>
                    <ul className="space-y-6 max-w-listingSection">
                       {
                          listing.map((item,index) => (
@@ -29,7 +29,7 @@ export function SectionCredit(){
                                   title="Icone verificado verde"
                                 />
                                 </div> 
-                               <p className="text-neutral-color-300">{item}</p>
+                               <p className="text-neutral-color-300 text-lg font-medium">{item}</p>
                              </li>
                          ))
                       }
