@@ -5,10 +5,10 @@
   --foreground: #171717;
 }
 
-@theme inline {
-  --font-barlow: var(--font-barlow);
-}
 
+@theme inline{
+  
+}
 
 @theme static{
     --color-blue-dark-900: #008ECB;
@@ -32,14 +32,19 @@
     --max-width-card-ImageModal:23.125rem;
     --max-width-paragraph:25.625rem;
     --max-width-cardModalForm:18.625rem;
+    --max-width-listingSection:22.375rem;
    
     --height-modal:31.25rem;
 }
 
 
+
+
 body{
-  background-color: #171717;
+    font-family: var(--font-barlow);
+    background-color: #171717 !important;
 }
+
 
 button{
   cursor: pointer !important;

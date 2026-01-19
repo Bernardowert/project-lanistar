@@ -8,9 +8,10 @@ import { Header } from "@/components/header";
 
 const barlow = Barlow({
   variable: '--font-barlow',
-  weight: ['400', '500'],
+  weight: ['300','400', '500'],
   display: 'swap',
   style: 'normal',
+  subsets: ['latin'],
 })
 
 export const metadata: Metadata = {
