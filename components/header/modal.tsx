@@ -14,6 +14,7 @@ import iconGlobal from "@/assets/icons/icon-global.png";
 import iconGreen from "@/assets/icons/icon-green-okay.svg";
 import { X } from "lucide-react";
 import { useState } from "react";
+import { Button } from "../button";
 
 const imagesModal = [
     {
@@ -119,7 +120,9 @@ export function RegisterModal(){
                                 </select>
                                 <input type="number" name="input-name" placeholder="Phone number" className="w-full h-full pl-4 placeholder:text-neutral-600" required/>
                            </div>
-                            <button>send contact</button>
+                            <Button btnStyle="btnPrimary">
+                                send contact
+                            </Button>
                        </form>
                        <div className="flex items-center gap-6 mt-12">
                           <div className="w-6 h-6 flex items-center justify-center bg-greenDark-900 rounded-full">
