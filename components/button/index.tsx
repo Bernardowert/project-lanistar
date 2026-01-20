@@ -17,13 +17,13 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement>{
    isBtn?:boolean;
    children:ReactNode;
    href?:string;
-   btnStyle: buttonStyles;
+   btnStyle?: buttonStyles;
    className?:string;
 }
 
 
 
-export function Button({isBtn = true, children, href = "#", btnStyle, className}:ButtonProps){
+export function Button({isBtn = true, children, href = "#", btnStyle = "btnPrimary", className}:ButtonProps){
     const defaultClass = "inline-block text-white font-semibold rounded-md uppercase px-8 py-4 bg-blue-dark-800 [&:hover,&:focus]:bg-blue-dark-900 transition ease-linear";
     const combinedClass = twMerge(defaultClass, className);
     return(

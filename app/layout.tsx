@@ -9,7 +9,7 @@ import { Footer } from "@/components/footer";
 
 const barlow = Barlow({
   variable: '--font-barlow',
-  weight: ['300','400', '500'],
+  weight: ['300','400', '500', '600'],
   display: 'swap',
   style: 'normal',
   subsets: ['latin'],

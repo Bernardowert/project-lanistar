@@ -36,6 +36,9 @@
     --max-width-cardModalForm:18.625rem;
     --max-width-listingSection:22.375rem;
     --max-width-footerNav: 36.5625rem;
+
+
+    --background-image-hero: url("../assets/slide-effect-hero.png");
    
     --height-modal:31.25rem;
 }

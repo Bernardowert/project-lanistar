@@ -9,7 +9,7 @@ import { RegisterModal } from "./modal";
 
 export function Header(){
     return(
-        <header className="w-full fixed h-24 flex items-center border-b border-gray-600">
+        <header className="w-full fixed h-24 flex items-center border-b border-gray-600 z-50">
             <ContainerGRID className="flex items-center justify-between">
                 <Link href="/">
                  <Image
