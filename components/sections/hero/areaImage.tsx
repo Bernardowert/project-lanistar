@@ -9,6 +9,7 @@ export function AreaImage(){
               src={card}
               alt={"Mockup cartões"}
              title={"Mockup cartões"}
+              loading="eager"
              draggable={false}
              className="w-364.75"
              />
