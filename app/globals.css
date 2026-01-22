@@ -65,6 +65,8 @@
     --color-white-800: #A6AEB833;
     --color-white-700: #FEFEFE;
     --color-white-600:#F6F6F8;
+    --color-white-500: #FDFDFD;
+    --color-white-400: #F6F6F6;
     --color-blue-900:#579ECE;
     --color-blue-800:#DCFFFF;
 
@@ -79,6 +81,7 @@
     --text-40:2.5rem;
 
     --background-image-hero: url("../assets/slide-effect-hero.png");
+    --background-image-download: url("../assets/bg-download.png");
 
     --height-modal:31.25rem;
 }
