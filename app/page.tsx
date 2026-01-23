@@ -4,6 +4,7 @@ import { SectionCredit } from "@/components/sections/creditCard";
 import { SectionHero } from "@/components/sections/hero";
 import { SectionSecurity } from "@/components/sections/security";
 import { SectionDownload } from "@/components/sections/download";
+import { SectionMoney } from "@/components/sections/money";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
        <SectionCredit/>
        <SectionSecurity/>
        <SectionDownload/>
+       <SectionMoney/>
      </>
   );
 }
