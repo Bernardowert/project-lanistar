@@ -5,6 +5,7 @@ import { SectionHero } from "@/components/sections/hero";
 import { SectionSecurity } from "@/components/sections/security";
 import { SectionDownload } from "@/components/sections/download";
 import { SectionMoney } from "@/components/sections/money";
+import { SectionCurrency } from "@/components/sections/currrency";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
        <SectionSecurity/>
        <SectionDownload/>
        <SectionMoney/>
+       <SectionCurrency/>
      </>
   );
 }

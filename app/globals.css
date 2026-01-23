@@ -83,6 +83,8 @@
     --background-image-hero: url("../assets/slide-effect-hero.png");
     --background-image-download: url("../assets/bg-download.png");
     --background-image-money: url("../assets/bg-money-01.png");
+    --background-image-cardCurrency:linear-gradient(62deg, #07bcff 0%, rgba(121, 236, 170, 0) 100%);
+    --background-image-currencyEffect:linear-gradient(207deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
 
     --height-modal:31.25rem;
 }
