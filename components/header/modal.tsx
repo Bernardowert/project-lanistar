@@ -57,7 +57,12 @@ export function RegisterModal(){
                  setOpenModal(true);
              })
          }
+
+         const doc = document.documentElement;
+
+         doc.classList.toggle("overflow-hidden");
     }
+    
    
 
     return(
