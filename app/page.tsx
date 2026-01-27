@@ -7,6 +7,7 @@ import { SectionDownload } from "@/components/sections/download";
 import { SectionMoney } from "@/components/sections/money";
 import { SectionCurrency } from "@/components/sections/currrency";
 import { SectionPayment } from "@/components/sections/payment";
+import { SectionMindFul } from "@/components/sections/mindful";
 
 export default function Home() {
   return (
@@ -15,9 +16,10 @@ export default function Home() {
        <SectionCredit/>
        <SectionSecurity/>
         <SectionPayment/>
-       <SectionDownload/>
        <SectionMoney/>
        <SectionCurrency/>
+       <SectionMindFul/>
+       <SectionDownload/>
      </>
   );
 }
