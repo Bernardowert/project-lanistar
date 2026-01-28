@@ -6,7 +6,6 @@ import { Footer } from "@/components/footer";
 
 
 
-
 const barlow = Barlow({
   variable: '--font-barlow',
   weight: ['300','400', '500', '600'],
@@ -20,19 +19,23 @@ export const metadata: Metadata = {
   description: "Lanistar",
 };
 
-export default function RootLayout({
+
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
+
+
   return (
-    <html lang="en">
+    <html lang='en'>
       <body
         className={`${barlow.variable} antialiased`}
       >
-        <Header/>
-        {children}
-        <Footer/>
+         <Header/>
+          {children}
+          <Footer/>
       </body>
     </html>
   );
