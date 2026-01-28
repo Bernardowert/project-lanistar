@@ -1,4 +1,21 @@
 {
+
+      "header":{
+      "nav": [
+      { "label": "Segurança ", "href": "#" },
+      { "label": "CARACTERÍSTICAS", "href": "#" },
+      { "label": "FUNDAMENTOS", "href": "#" }
+    ],
+    "buttonTxt": "FAÇA SEU PRÉ-REGISTRO AGORA",
+     "modal":{
+        "title":"Baixe o aplicativo e entre na lista de espera",
+        "text": "Quando isso for lançado, você estará lá para pegar. Além disso, plantaremos uma árvore só para você. Sério.",
+        "placeholder":"Número de telefone",
+        "btnText": "Enviar contato",
+        "textAbove":"Notificações instantâneas de gastos em todos os seus cartões de pagamento."
+    }
+    },
+
     "sectionHero":{
         "titleHero": "SEJA INTOCÁVEL",
         "textHero": "Um cartão de pagamento polimórfico para quem sabe que influência é a única moeda que importa.",

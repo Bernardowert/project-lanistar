@@ -15,6 +15,7 @@ import iconGreen from "@/assets/icons/icon-green-okay.svg";
 import { X } from "lucide-react";
 import { useState } from "react";
 import { Button } from "../button";
+import { useTranslation } from "react-i18next";
 
 const imagesModal = [
     {
@@ -47,6 +48,8 @@ const selectCountry = [
 export function RegisterModal(){
     const [openModal, setOpenModal] = useState(false);
     const [isMounted, setIsMounted] = useState(false);
+
+    const {t} = useTranslation();
     function handleModal(){
          if(openModal){
             setOpenModal(false);
@@ -74,7 +77,7 @@ export function RegisterModal(){
              title="Logo Register"
              loading="eager"
             />
-            <span className="font-medium text-blue-light-900">PRE-REGISTER NOW</span>
+            <span className="font-medium text-blue-light-900">{t('header.buttonTxt')}</span>
              </button>
 
              {
@@ -111,8 +114,8 @@ export function RegisterModal(){
                             </button>
                        </div>
                        <div className="max-w-paragraph space-y-4 mt-8 mb-10">
-                          <h3 className="text-3xl text-neutral-color-300">GET THE APP, AND GET ON THE WAITLIST<span className="text-blue-dark-800">.</span></h3>
-                          <p className="text-neutral-color-300">When this drops, you’re going to be right there to catch it. Plus, we’ll plant a tree just for you. Really.</p>
+                          <h3 className="text-3xl text-neutral-color-300">{t("header.modal.title")}<span className="text-blue-dark-800">.</span></h3>
+                          <p className="text-neutral-color-300">{t("header.modal.text")}</p>
                        </div>
                        <form className="flex items-center gap-5">
                            <div className="flex flex-1 max-w-cardModalForm h-14 items-center border border-neutral-color-500 rounded-md">
@@ -123,10 +126,10 @@ export function RegisterModal(){
                                         ))
                                     }
                                 </select>
-                                <input type="number" name="input-name" placeholder="Phone number" className="w-full h-full pl-4 placeholder:text-neutral-600" required/>
+                                <input type="number" name="input-name" placeholder={t("header.modal.placeholder")} className="w-full h-full pl-4 placeholder:text-neutral-600" required/>
                            </div>
                             <Button btnStyle="btnPrimary">
-                                send contact
+                                {t("header.modal.btnText")}
                             </Button>
                        </form>
                        <div className="flex items-center gap-6 mt-12">
@@ -137,7 +140,7 @@ export function RegisterModal(){
                             title="Icon green"
                             />
                           </div>
-                           <p className="text-neutral-700">Instant spending notifications across all your payment cards</p>
+                           <p className="text-neutral-700">{t("header.modal.textAbove")}</p>
                        </div>
                  </div>
                 </div>

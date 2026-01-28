@@ -1,4 +1,21 @@
 {
+
+   "header":{
+      "nav": [
+      { "label": "Seguridad ", "href": "#" },
+      { "label": "CARACTERÍSTICAS", "href": "#" },
+      { "label": "FUNDAMENTOS", "href": "#" }
+    ],
+    "buttonTxt": "PREINSCRÍBETE AHORA",
+     "modal":{
+        "title":"¡OBTÉN LA APLICACIÓN Y ÚNETE A LA LISTA DE ESPERA!",
+        "text": "Cuando esto salga, estarás ahí para aprovecharlo. Además, plantaremos un árbol solo para ti. De verdad.",
+        "placeholder":"Número de teléfono",
+        "btnText": "Enviar contacto",
+        "textAbove":"Notificaciones instantáneas de gastos en todas tus tarjetas de pago"
+    }
+  },
+
   "sectionHero": {
     "titleHero": "SER INTOCABLE",
     "textHero": "Una tarjeta de pago polimórfica para aquellos que saben que la influencia es la única moneda que importa.",

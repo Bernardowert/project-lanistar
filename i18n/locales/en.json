@@ -1,4 +1,21 @@
 {
+  "header":{
+      "nav": [
+      { "label": "Security ", "href": "#" },
+      { "label": "FEATURES", "href": "#" },
+      { "label": "FUNDAMENTALS", "href": "#" }
+    ],
+    "buttonTxt": "PRE-REGISTER NOW",
+
+    "modal":{
+        "title":"GET THE APP, AND GET ON THE WAITLIST",
+        "text": "When this drops, you’re going to be right there to catch it. Plus, we’ll plant a tree just for you. Really.",
+        "placeholder":"Phone Number",
+        "btnText": "Send Contact",
+        "textAbove":"Instant spending notifications across all your payment cards"
+    }
+  },
+
   "sectionHero": {
     "titleHero": "BE UNTOUCHABLE",
     "textHero": "A polymorphic payment card for those who know influence is the only currency that matters.",
