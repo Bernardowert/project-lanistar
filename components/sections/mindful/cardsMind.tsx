@@ -21,7 +21,6 @@ import slide11 from "@/assets/slides/slide-11.png";
 import slide12 from "@/assets/slides/slide-12.png";
 import slide13 from "@/assets/slides/slide-13.png";
 import slide14 from "@/assets/slides/slide-14.png";
-import slide15 from "@/assets/slides/slide-15.png";
 
 
 const slides = [
@@ -116,7 +115,7 @@ export function CardsMind(){
                            {
                             container.map(({imgSrc,imgAlt}, index) => (
                                  <Image
-                                 key={`${imgSrc + imgAlt}`}
+                                 key={`${imgSrc + imgAlt + index}`}
                                 src={imgSrc}
                                 alt={imgAlt}
                                 title={imgAlt}

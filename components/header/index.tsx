@@ -10,7 +10,9 @@ export function Header(){
 
     useEffect(() => {
 
-        setScrollY(window.scrollY);
+        setTimeout(() => {
+             setScrollY(window.scrollY);
+        }, 0);
 
        const handleScroll = () => {
          setScrollY(window.scrollY);

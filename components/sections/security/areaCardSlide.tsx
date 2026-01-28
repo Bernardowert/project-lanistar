@@ -12,12 +12,12 @@ export function AreaCardSlide(){
     const [count, setCount] = useState(0);
     const [current, setCurrent] = useState(0);
 
+
+    
     useEffect(() => {
         if(!api) return;
            
-      setCount(api.scrollSnapList().length)
-
-      setCurrent(api.selectedScrollSnap())
+      setTimeout(() => setCount(api.scrollSnapList().length), 0);
 
     api.on("select", () => {
       setCurrent(api.selectedScrollSnap())
