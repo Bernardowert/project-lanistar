@@ -135,5 +135,11 @@
       "ACCEPTED AT MORE THAN 38M TILLS",
       "Spend in multiple currencies",
       "THATS IT! free money transfers"
-  ]
+  ],
+
+  "sectionMindFul": {
+      "title": "GET",
+      "titleBlack": "MINDFUL",
+      "follow": "Follow us"
+  }
 }
