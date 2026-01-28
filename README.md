@@ -4,6 +4,8 @@ O Projeto Lanistar é uma aplicação web moderna desenvolvida com Next.js, Reac
 
 🔹 Funcionalidades
 
+Mudança de idiomas
+
 Navegação dinâmica e interativa entre seções.
 
 Cards deslizantes e interativos com atualização de estado em tempo real.
