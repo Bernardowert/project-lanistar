@@ -13,7 +13,7 @@ export function AreaImage(){
              draggable={false}
              className="w-364.75"
              />
-             <button className="absolute bottom-0 right-0 w-14 h-14 flex items-center justify-center rounded-full border-2 group border-white/30 transition ease-linear [&:hover,&:focus]:bg-white">
+             <button aria-label="Botão para ir para baixo" className="absolute bottom-0 right-0 w-14 h-14 flex items-center justify-center rounded-full border-2 group border-white/30 transition ease-linear [&:hover,&:focus]:bg-white">
                   <ArrowDown width={30} color="#fff" className="group-hover:stroke-neutral-900 group-focus:stroke-neutral-900"/>
              </button>
         </div>
