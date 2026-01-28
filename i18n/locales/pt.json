@@ -94,5 +94,9 @@
           "Tecnologia anti-hacker"
       ],
       "buttonTxt":"FALANDO EM DETALHES"
+  },
+  "sectionPayment": {
+      "titleNormal": "Um cartão de pagamento por conta?",
+      "titleBlack": "Claro que não!"
   }
 }

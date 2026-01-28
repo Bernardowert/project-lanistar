@@ -95,5 +95,9 @@
           "Tecnología anti-hackers"
       ],
       "buttonTxt":"HABLANDO DE DETALLES"
+  },
+  "sectionPayment": {
+      "titleNormal": "¿Una tarjeta de pago por cuenta?",
+      "titleBlack": "Claro que no."
   }
 }

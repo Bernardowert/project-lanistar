@@ -98,5 +98,10 @@
           "Ant-hacker technology"
       ],
       "buttonTxt":"SPEAKING OF DETAILs"
+  },
+
+  "sectionPayment": {
+      "titleNormal": "One payment card per Account?",
+      "titleBlack": "Yeah no."
   }
 }
