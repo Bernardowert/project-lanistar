@@ -1,8 +1,14 @@
+'use client'
+
 import { ContainerGRID } from "@/components/containerGRID";
 import { AreaGrid } from "./areaGrid";
-import Image from "next/image";
+import { useTranslation } from "react-i18next";
+
 
 export function SectionMoney(){
+    const {t, i18n} = useTranslation();
+
+    const locale = i18n.language;
     return(
         <section 
         className
@@ -10,7 +16,7 @@ export function SectionMoney(){
         bg-neutral-color-100 
         before:content-['']  before:absolute before:w-full before:h-full before:bottom-0 before:left-0 before:bg-money before:bg-bottom-left before:bg-no-repeat before:-z-10">
             <ContainerGRID className="flex items-start justify-between">
-                <h2 className="text-40 font-medium text-neutral-color-400 max-w-87">CONTROL YOUR <span className="text-white">MONEY FLOW</span></h2>
+                <h2 className={`${locale === 'pt' ? 'text-4xl/normal' : 'text-40'} font-medium text-neutral-color-400 max-w-87`}>{t("sectionMoney.title")} <span className="text-white">{t("sectionMoney.titleWhite")}</span></h2>
                 <AreaGrid/>
             </ContainerGRID>
             

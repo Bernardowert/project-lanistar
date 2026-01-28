@@ -98,5 +98,31 @@
   "sectionPayment": {
       "titleNormal": "Um cartão de pagamento por conta?",
       "titleBlack": "Claro que não!"
+  },
+    "sectionMoney": {
+      "title": "CONTROLE SEU",
+      "titleWhite":"FLUXO DE DINHEIRO",
+      "cards": [
+         {
+            "heading": "ENVIE DINHEIRO GRATUITAMENTE",
+            "text": "As transferências entre usuários Lanistar são gratuitas, então não há motivo para não acertar as contas."
+         },
+          {
+            "heading": "DIVIDIR CONTAS",
+            "text": "Envie, solicite e divida dinheiro com qualquer pessoa, em qualquer lugar, instantaneamente. E se eles estiverem usando o Lanistar, você sabe que é totalmente gratuito."
+         },
+          {
+            "heading": "ACOMPANHE SEUS GASTOS",
+            "text": "Veja e acompanhe seus gastos em todos os seus cartões de pagamento em tempo real. E se você quiser receber notificações instantâneas quando o dinheiro entrar ou sair, também temos essa opção."
+         },
+          {
+            "heading": "Suporte multilíngue 24 horas por dia, 7 dias por semana",
+            "text": "Precisa de nós? Estamos à disposição. Suporte multilíngue 24 horas por dia, 7 dias por semana, no aplicativo ou pelo WhatsApp. Você está no controle."
+         },
+          {
+            "heading":"EMPILHE, TROQUE, NÃO PARE",
+            "text": "Um cartão de pagamento por conta? Não, obrigado. Nossos cartões de pagamento são polimórficos, o que significa que você pode usar vários cartões em um só e alternar entre eles."
+         }
+      ]
   }
 }

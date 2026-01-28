@@ -99,5 +99,31 @@
   "sectionPayment": {
       "titleNormal": "¿Una tarjeta de pago por cuenta?",
       "titleBlack": "Claro que no."
+  },
+    "sectionMoney": {
+      "title": "CONTROLA TU",
+      "titleWhite":"FLUJO DE DINERO",
+      "cards": [
+         {
+            "heading": "ENVÍA DINERO GRATIS",
+            "text": "Los pagos de Lanistar a Lanistar son gratuitos, por lo que no hay motivo para no liquidarlos."
+         },
+          {
+            "heading": "CUENTAS DIVIDIDAS",
+            "text": "Envía, solicita y divide dinero con quien quieras, donde quieras, al instante. Y si usan Lanistar, es totalmente gratis."
+         },
+          {
+            "heading": "RASTREA TUS GASTOS",
+            "text": "Consulta y da seguimiento a tus gastos con todas tus tarjetas de pago en tiempo real. Y si quieres recibir notificaciones instantáneas cuando entra o sale dinero, también lo tenemos."
+         },
+          {
+            "heading": "SOPORTE MULTILINGÜE 24/7",
+            "text": "¿Nos necesitas? Estamos disponibles. Soporte multilingüe 24/7, en la app o por WhatsApp. Tú tienes el control."
+         },
+          {
+            "heading":"APILA, INTERCAMBIA, NO TE DETENGAS",
+            "text": "¿Una tarjeta de pago por cuenta? Sí, no. Nuestras tarjetas de pago son polimórficas, lo que significa que puedes combinar varias en una e intercambiarlas."
+         }
+      ]
   }
 }

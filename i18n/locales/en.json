@@ -103,5 +103,31 @@
   "sectionPayment": {
       "titleNormal": "One payment card per Account?",
       "titleBlack": "Yeah no."
+  },
+  "sectionMoney": {
+      "title": "CONTROL YOUR",
+      "titleWhite":"MONEY FLOW",
+      "cards": [
+         {
+            "heading": "SEND MONEY FOR FREE",
+            "text": "Lanistar to Lanistar payments are free, so there’s no reason not to settle up."
+         },
+          {
+            "heading": "SPLIT BILLS",
+            "text": "Send, request and split money with anyone, anywhere instantly. And if they’re using Lanistar, you know it’s free as anything."
+         },
+          {
+            "heading": "TRACK YOUR SPENDING",
+            "text": "See and track your spending across all your payment cards in real-time. And if you want instant notifications when money comes in or out, we’ve got that too."
+         },
+          {
+            "heading": "24/7 MULTI-LINGUAL SUPPORT",
+            "text": "Need us? We’re up. 24/7 multilingual support, in-app or on WhatsApp. You’re in control."
+         },
+          {
+            "heading":"STACK, SWAP, DON'T STOP",
+            "text": "One payment card per account? Yeah no. Our payment cards are polymorphic, meaning you can stack multiple cards in one, and swap between."
+         }
+      ]
   }
 }
