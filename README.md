@@ -20,6 +20,6 @@ Front-end: React, Next.js, Tailwind CSS
 
 Gerenciamento de estado: useState, useEffect
 
-Hospedagem: HostGator (ou outro se aplicável)
+Hospedagem: Vercel
 
 Versionamento: Git / GitHub
