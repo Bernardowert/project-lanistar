@@ -82,5 +82,17 @@
       "Gaste em várias moedas",
       "Acompanhe seus gastos"
     ]  
+  },
+  "sectionSecurity":{
+      "titleNormal": "UMA EQUIPE DE SEGURANÇA PARA VOCÊ",
+      "titleGray": "DADOS BANCÁRIOS",
+      "text": "O cartão de pagamento mais seguro do mundo. Carregue até 8 cartões de pagamento e obtenha senhas PIN de uso único diretamente do teclado.",
+      "listingIcons": [
+          "Compre online com mais segurança na Nlitz usando o CVV2 dinâmico.",
+          "Você controla seu dinheiro, ele não controla você.",
+          "Segurança com CVV2 dinâmico",
+          "Tecnologia anti-hacker"
+      ],
+      "buttonTxt":"FALANDO EM DETALHES"
   }
 }

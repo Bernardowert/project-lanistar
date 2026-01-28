@@ -84,5 +84,19 @@
       "Spend in multiple currencies",
       "Track your spending"
     ]  
+  },
+  
+
+  "sectionSecurity":{
+      "titleNormal": "A SECURITY DETAIL FOR YOUR",
+      "titleGray": "BANK DETAILS",
+      "text": "The most secure payment card in the world. Load up to 8 payment cards and get one-time PINs straight from the keypad",
+      "listingIcons": [
+          "Nlitz on-line shopping more securely with dynamic CVV2",
+          "You control your money, it doesn’t control you",
+          "Securely with dynamic CVV2",
+          "Ant-hacker technology"
+      ],
+      "buttonTxt":"SPEAKING OF DETAILs"
   }
 }
