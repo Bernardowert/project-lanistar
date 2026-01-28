@@ -26,6 +26,12 @@ Hospedagem: Vercel
 
 Versionamento: Git / GitHub
 
+
+# Coisas Faltando
+
+1 - Terminar responsivo
+2 - Melhorar SEO
+
 # Screenshots
 
 <img width="3418" height="1157" alt="image" src="https://github.com/user-attachments/assets/8c9836e3-8c19-4e07-a257-e4c3d52640b8" />
