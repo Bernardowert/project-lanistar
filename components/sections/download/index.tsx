@@ -4,7 +4,7 @@ import { AreaImage } from "./areaImage";
 
 export function SectionDownload(){
     return(
-        <section className="h-148.75 bg-download bg-no-repeat bg-center bg-cover pt-25.25">
+        <section className="h-148.75 bg-download bg-no-repeat bg-center bg-cover pt-25.25 relative -z-10">
              <ContainerGRID className="flex items-start justify-between">
                 <div className="w-full max-w-lg">
                     <h2 className="text-6xl text-white-500/70">WHAT’S BETTER THAN AIR MILES? <span className="text-white-500">ACTUAL AIR.</span></h2>
