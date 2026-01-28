@@ -30,7 +30,10 @@ Versionamento: Git / GitHub
 # Coisas Faltando
 
 1 - Terminar responsivo
+
 2 - Melhorar SEO
+
+3 - Criar animações
 
 # Screenshots
 
