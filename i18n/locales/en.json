@@ -74,5 +74,15 @@
     "btnText": "PRE-REGISTER NOW",
     "text2026": "GET THE APP TO GET ON THE WAITLIST.",
     "textStrong": "Coming 2026"
+  },
+
+  "sectionCredit": {
+    "title": "PAYMENT CARD",
+    "listingPay": [
+      "Instant spending notifications across all your payment cards",
+      "Free Lanistar-to-Lanistar payments",
+      "Spend in multiple currencies",
+      "Track your spending"
+    ]  
   }
 }

@@ -73,5 +73,15 @@
     "btnText": "PREINSCRÍBETE AHORA",
     "text2026": "OBTENGA LA APLICACIÓN PARA ENTRAR EN LA LISTA DE ESPERA.",
     "textStrong": "Próximamente en 2026"
+  },
+
+    "sectionCredit": {
+    "title": "TARJETA DE PAGO",
+    "listingPay": [
+      "Notificaciones instantáneas de gastos en todas tus tarjetas de pago",
+      "Pagos gratuitos de Lanistar a Lanistar",
+      "Gastar en múltiples monedas",
+      "Realice un seguimiento de sus gastos"
+    ]  
   }
 }

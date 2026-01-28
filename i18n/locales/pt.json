@@ -73,5 +73,14 @@
         "btnText": "FAÇA SEU PRÉ-REGISTRO AGORA",
         "text2026": "BAIXE O APP PARA ENTRAR NA LISTA DE ESPERA.",
         "textStrong": "Chegando em 2026"
-    }
+    },
+   "sectionCredit": {
+    "title": "CARTÃO DE PAGAMENTO",
+    "listingPay": [
+      "Notificações instantâneas de gastos em todos os seus cartões de pagamento.",
+      "Pagamentos Lanistar para Lanistar gratuitos",
+      "Gaste em várias moedas",
+      "Acompanhe seus gastos"
+    ]  
+  }
 }
