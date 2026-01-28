@@ -124,5 +124,10 @@
             "text": "Um cartão de pagamento por conta? Não, obrigado. Nossos cartões de pagamento são polimórficos, o que significa que você pode usar vários cartões em um só e alternar entre eles."
          }
       ]
-  }
+  },
+  "sectionCurrency": [
+      "ACEITO EM MAIS DE 38 MILHÕES DE CAIXAS",
+      "Gaste em várias moedas",
+      "É ISSO! Transferências de dinheiro gratuitas!"
+  ]
 }

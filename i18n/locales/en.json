@@ -129,5 +129,11 @@
             "text": "One payment card per account? Yeah no. Our payment cards are polymorphic, meaning you can stack multiple cards in one, and swap between."
          }
       ]
-  }
+  },
+
+  "sectionCurrency": [
+      "ACCEPTED AT MORE THAN 38M TILLS",
+      "Spend in multiple currencies",
+      "THATS IT! free money transfers"
+  ]
 }

@@ -125,5 +125,10 @@
             "text": "¿Una tarjeta de pago por cuenta? Sí, no. Nuestras tarjetas de pago son polimórficas, lo que significa que puedes combinar varias en una e intercambiarlas."
          }
       ]
-  }
+  },
+  "sectionCurrency": [
+      "ACEPTADO EN MÁS DE 38M HASTA",
+      "Gastar en múltiples monedas",
+      "¡ESO ES TODO! Transferencias de dinero gratis"
+  ]
 }
