@@ -16,7 +16,7 @@ Componentização seguindo princípios de Clean Code e Pixel Perfect.
 
 🛠 Tecnologias Utilizadas
 
-Front-end: React, Next.js, Tailwind CSS
+Front-end: React, Next.js, Tailwind CSS, I18NEXT
 
 Gerenciamento de estado: useState, useEffect
 
