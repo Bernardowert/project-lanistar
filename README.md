@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Projeto Lanistar
 
-## Getting Started
+O Projeto Lanistar é uma aplicação web moderna desenvolvida com Next.js, React e Tailwind CSS, focada em fornecer uma interface interativa e responsiva para usuários. O projeto foi criado com atenção a boas práticas de front-end, componentes reutilizáveis e performance.
 
-First, run the development server:
+🔹 Funcionalidades
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Navegação dinâmica e interativa entre seções.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Cards deslizantes e interativos com atualização de estado em tempo real.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Integração com sistemas externos através de callbacks e eventos.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Layout totalmente responsivo utilizando Tailwind CSS.
 
-## Learn More
+Componentização seguindo princípios de Clean Code e Pixel Perfect.
 
-To learn more about Next.js, take a look at the following resources:
+🛠 Tecnologias Utilizadas
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Front-end: React, Next.js, Tailwind CSS
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Gerenciamento de estado: useState, useEffect
 
-## Deploy on Vercel
+Hospedagem: HostGator (ou outro se aplicável)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Versionamento: Git / GitHub
