@@ -90,7 +90,7 @@ const socials = [
 
 export function Footer(){
     return(
-        <footer>
+        <footer className="pt-27.5 pb-6">
             <ContainerGRID>
                  <div className="flex items-start justify-between">
                         <div className="w-full max-w-72 flex items-start justify-between">
