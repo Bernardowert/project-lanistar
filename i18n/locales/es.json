@@ -15,6 +15,57 @@
         "textAbove":"Notificaciones instantáneas de gastos en todas tus tarjetas de pago"
     }
   },
+   "footer": {
+      "topSide": {
+          "investors": [
+            {
+               "label": "Influencers", 
+               "href": "#",
+               "alt": "logo Influencers"
+            },
+            {
+               "label": "Inversores", 
+               "href": "#",
+               "alt": "logo Investors"
+            }
+          ],
+          "navListing": [
+              {
+                "label": "Seguridad",
+                 "href": "#"
+              },
+              {
+                "label": "Apoyo",
+                 "href": "#"
+              },
+              {
+                "label": "Características",
+                 "href": "#"
+              },
+              {
+                "label": "Terms and Conditions",
+                 "href": "#"
+              },
+              {
+                "label": "Fundamentos",
+                 "href": "#"
+              },
+              {
+                "label": "Política de privacidad",
+                 "href": "#"
+              },
+              {
+                "label": "Sobre nosotros",
+                 "href": "#"
+              }
+              
+          ]
+      }, 
+      "bottomSide": {
+          "textBig": "Lanistar Ltd es un agente EMD registrado (FRN: 902996) de Modulr FS Limited y puede distribuir y canjear dinero electrónico, así como prestar servicios de pago. Modulr FS Limited está autorizada por la Autoridad de Conducta Financiera (FCA) en virtud del Reglamento de Dinero Electrónico de 2011 (FRN: 900573) para la emisión de dinero electrónico y la prestación de servicios de pago. Actualmente, Lanistar Limited (Lanistar) solo está realizando actividades de marketing previas al lanzamiento de las tarjetas de pago de la marca Lanistar (Tarjetas). Lanistar está ultimando acuerdos con diversas empresas asociadas autorizadas o reguladas (por la FCA y otros organismos reguladores extranjeros), y las tarjetas solo se lanzarán y estarán operativas cuando se cumplan dichos acuerdos.",
+          "poweredBy": "Desarrollado por"
+      }
+  },
 
   "sectionHero": {
     "titleHero": "SER INTOCABLE",

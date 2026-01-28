@@ -1,3 +1,5 @@
+'use client'
+
 import Image from "next/image";
 import Link from "next/link";
 import { ContainerGRID } from "../containerGRID";
@@ -16,6 +18,7 @@ import investorLogo from "@/assets/icons/icon-investor.svg";
 import iconInstagram from "@/assets/icons/icon-instagram.png";
 import iconYoutube from "@/assets/icons/icon-youtube.png";
 import iconTwitter from "@/assets/icons/icon-twitter.png";
+import { useTranslation } from "react-i18next";
 
 const downloads = [
     {
@@ -30,48 +33,10 @@ const downloads = [
 
 
 const influencers = [
-    {
-        src:influencersLogo,
-        alt:'Logo influencers',
-        text:'Influencers'
-    },
-     {
-        src:investorLogo,
-        alt:'Logo investors',
-        text:'Investors'
-    }
+    influencersLogo,
+    investorLogo
 ]
 
-const navLinks = [
-    {
-        path:'#',
-        text:'Security'
-    },
-    {
-        path:'#',
-        text:'Support'
-    },
-    {
-        path:'#',
-        text:'Features'
-    },
-    {
-        path:'#',
-        text:'Terms and Conditions'
-    },
-    {
-        path:'#',
-        text:'Fundamentals'
-    },
-    {
-        path:'#',
-        text:'Privacy Policy'
-    },
-    {
-        path:'#',
-        text:'About Us'
-    }
-]
 
 const socials = [
     {
@@ -88,7 +53,23 @@ const socials = [
     }
 ]
 
+interface InvestorProps{
+    label:string;
+    href:string;
+    alt:string;
+}
+
+interface NavListingProps{
+    label:string;
+    href:string;
+}
+
 export function Footer(){
+    const {t} = useTranslation();
+
+    const investors = t('footer.topSide.investors', {returnObjects: true}) as InvestorProps[]
+    const navListing = t('footer.topSide.navListing', {returnObjects:true}) as NavListingProps[]
+
     return(
         <footer className="pt-27.5 pb-6">
             <ContainerGRID>
@@ -118,14 +99,14 @@ export function Footer(){
                         <nav className="flex items-start w-full max-w-footerNav justify-between">
                            <div className="space-y-6">
                              {
-                                influencers.map(({src,alt,text}, index) => (
-                                    <Link href="#" key={`${src} + ${index}`} className="flex items-center gap-4">
+                                investors.map(({alt,label}, index) => (
+                                    <Link href="#" key={`${alt + label} + ${index}`} className="flex items-center gap-4">
                                         <Image
-                                            src={src}
+                                            src={influencers[index]}
                                             alt={alt}
                                             title={alt}
                                         />
-                                        <span className="text-xl text-neutral-color-300 transition ease-linear [&:hover,&:focus]:text-neutral-color-100">{text}</span>
+                                        <span className="text-xl text-neutral-color-300 transition ease-linear [&:hover,&:focus]:text-neutral-color-100">{label}</span>
                                     </Link>
                                 ))
                             }
@@ -133,9 +114,9 @@ export function Footer(){
 
                             <div className="grid grid-cols-2 gap-y-8">
                                    {
-                                      navLinks.map(({path,text}, index) => (
-                                          <Link href={path} key={index} className="justify-self-start text-neutral-color-300 transition ease-linear [&:hover,&:focus]:text-neutral-color-100">
-                                             {text}
+                                      navListing.map(({label,href}, index) => (
+                                          <Link href={href} key={index} className="justify-self-start text-neutral-color-300 transition ease-linear [&:hover,&:focus]:text-neutral-color-100">
+                                             {label}
                                           </Link>
                                       ))
                                    }

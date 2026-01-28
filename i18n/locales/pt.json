@@ -15,6 +15,57 @@
         "textAbove":"Notificações instantâneas de gastos em todos os seus cartões de pagamento."
     }
     },
+     "footer": {
+      "topSide": {
+          "investors": [
+            {
+               "label": "Influenciadores", 
+               "href": "#",
+               "alt": "logo Influencers"
+            },
+            {
+               "label": "Investidores", 
+               "href": "#",
+               "alt": "logo Investors"
+            }
+          ],
+          "navListing": [
+              {
+                "label": "Segurança",
+                 "href": "#"
+              },
+              {
+                "label": "Suporte",
+                 "href": "#"
+              },
+              {
+                "label": "Características",
+                 "href": "#"
+              },
+              {
+                "label": "Termos e Condições",
+                 "href": "#"
+              },
+              {
+                "label": "Fundamentos",
+                 "href": "#"
+              },
+              {
+                "label": "Política de Privacidade",
+                 "href": "#"
+              },
+              {
+                "label": "Sobre nós",
+                 "href": "#"
+              }
+              
+          ]
+      }, 
+      "bottomSide": {
+          "textBig": "A Lanistar Ltd é uma agente EMD registada (FRN: 902996) da Modulr FS Limited e pode distribuir e resgatar moeda eletrónica, bem como prestar serviços de pagamento. A Modulr FS Limited está autorizada pela Autoridade de Conduta Financeira (FCA) ao abrigo do Regulamento de Moeda Eletrónica de 2011 (FRN: 900573) para a emissão de moeda eletrónica e para a prestação de serviços de pagamento. A Lanistar Limited ('Lanistar') encontra-se atualmente apenas a realizar marketing de pré-lançamento, em preparação para o futuro lançamento dos cartões de pagamento da marca Lanistar ('Cartões'). A Lanistar está a finalizar os acordos com várias empresas parceiras autorizadas e/ou regulamentadas (pela FCA e outros reguladores internacionais), e os Cartões só serão lançados e entrarão em funcionamento quando esses acordos estiverem concluídos.",
+          "poweredBy": "Distribuído por"
+      }
+  },
 
     "sectionHero":{
         "titleHero": "SEJA INTOCÁVEL",

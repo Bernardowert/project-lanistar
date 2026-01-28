@@ -1,8 +1,11 @@
+'use client'
+
 import Image from "next/image";
 
 import iconPowered01 from "@/assets/icons/icon-brand-01.png";
 import iconPowered02 from "@/assets/icons/icon-brand-02.png";
 import logoBtn from "@/assets/icons/icon-chat.svg";
+import { useTranslation } from "react-i18next";
 
 const listing = [
     {
@@ -18,14 +21,17 @@ const listing = [
 ]
 
 export function AreaBottom() {
+
+    const {t} = useTranslation();
+
     return (
           <div className="mt-14 pt-14 border-t border-white-900 text-sm text-neutral-color-300">
-                     <p>Lanistar Ltd is a registered EMD agent (FRN: 902996) of Modulr FS Limited and may distribute and redeem e-money and provide payment services. Modulr FS Limited is authorised by the Financial Conduct Authority ("FCA") under the Electronic Money Regulations 2011 (FRN: 900573) for the issuing of electronic money and to provide payment services. Lanistar Limited ("Lanistar") is currently only carrying out pre-launch marketing in preparation for a future launch of Lanistar branded payment cards ("Cards"). Lanistar is finalising arrangements with various partner firms who are authorised and/or regulated (by the FCA and other overseas regulators) and the Cards will only be launched and go-live when those arrangements are in place.</p>
+                     <p>{t("footer.bottomSide.textBig")}</p>
                       <div className="flex items-center justify-between mt-16">
-                             <span className="font-medium">© 2021 Lanistar.com</span>
+                             <span className="font-medium">© 2026 Lanistar.com</span>
                              <div className="flex items-center gap-52.5">
                                      <div className="flex items-center gap-5">
-                                         <span>Powered by</span>
+                                         <span>{t("footer.bottomSide.poweredBy")}</span>
                                             <ul className="flex items-center gap-5">
                                                 {
                                                     listing.map(({src,alt,title},index) => (
