@@ -135,5 +135,11 @@
        "title": "estar",
       "titleBlack": "CONSCIENTE",
       "follow": "Síganos"
-  }
+  },
+  "sectionDownload": {
+     "title": "¿QUÉ ES MEJOR QUE LAS MILLAS AÉREAS?",
+     "titleWhite": "AIRE REAL.",
+     "text": "Plantamos un árbol por cada preinscripción y por cada nuevo cliente. Y planeamos plantar millones.",
+     "buttonTxt": "PREINSCRÍBETE AHORA"
+    }
 }

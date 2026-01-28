@@ -134,5 +134,11 @@
       "title": "Seja",
       "titleBlack": "CONSCIENTE",
       "follow": "Siga-nos"
-  }
+  },
+  "sectionDownload": {
+     "title": "O QUE É MELHOR DO QUE MILHAS AÉREAS?",
+     "titleWhite": "AR REAL.",
+     "text": "Plantamos uma árvore para cada pessoa que se pré-cadastra e para cada novo cliente. E planejamos plantar milhões.",
+     "buttonTxt": "FAÇA SEU PRÉ-REGISTRO AGORA"
+    }
 }

@@ -1,15 +1,21 @@
+'use client'
+
 import { Button } from "@/components/button";
 import { ContainerGRID } from "@/components/containerGRID";
 import { AreaImage } from "./areaImage";
+import { useTranslation } from "react-i18next";
 
 export function SectionDownload(){
+    const {t, i18n} = useTranslation();
+
+    const locale = i18n.language;
     return(
-        <section className="h-148.75 bg-download bg-no-repeat bg-center bg-cover pt-25.25 relative -z-10">
+        <section className="h-148.75 bg-download bg-no-repeat bg-center bg-cover pt-25.25 relative overflow-hidden">
              <ContainerGRID className="flex items-start justify-between">
                 <div className="w-full max-w-lg">
-                    <h2 className="text-6xl text-white-500/70">WHAT’S BETTER THAN AIR MILES? <span className="text-white-500">ACTUAL AIR.</span></h2>
-                    <p className="text-white-400 text-lg mt-6.25 mb-8">We plant a tree for everyone who pre-registers and every new customer. And we’re planning to plant millions.</p>
-                    <Button>PRE-REGISTER NOW</Button>
+                    <h2 className={`${locale !== 'en' ? 'text-5xl' : 'text-6xl'} text-white-500/70`}>{t("sectionDownload.title")} <span className="text-white-500">{t("sectionDownload.titleWhite")}</span></h2>
+                    <p className="text-white-400 text-lg mt-6.25 mb-8">{t("sectionDownload.text")}</p>
+                    <Button>{t("sectionDownload.buttonTxt")}</Button>
                 </div>
 
                 <AreaImage/>

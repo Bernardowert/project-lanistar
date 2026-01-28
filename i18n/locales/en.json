@@ -141,5 +141,11 @@
       "title": "GET",
       "titleBlack": "MINDFUL",
       "follow": "Follow us"
-  }
+  },
+  "sectionDownload": {
+     "title": "WHAT’S BETTER THAN AIR MILES?",
+     "titleWhite": "ACTUAL AIR.",
+     "text": "We plant a tree for everyone who pre-registers and every new customer. And we’re planning to plant millions.",
+     "buttonTxt": "PRE-REGISTER NOW"
+    }
 }
